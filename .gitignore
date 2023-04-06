@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+.cache
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.log
+yarn.lock
+package-lock.json
+.eslintcache
+dist
+.docz
