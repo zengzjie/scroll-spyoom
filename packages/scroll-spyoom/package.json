@@ -26,7 +26,7 @@
   "scripts": {
     "prepublishOnly": "npm run build",
     "dev": "microbundle watch",
-    "build": "microbundle --name Scroll-Spy --external react,react-dom"
+    "build": "microbundle --name Scroll-Spyoom --external react,react-dom"
   },
   "keywords": [],
   "dependencies": {},

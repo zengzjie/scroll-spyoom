@@ -1,2 +1,2 @@
-export * from './lib/scrollSpy';
+export * from './lib/scroll-spyoom';
 export * from './lib/utils';
