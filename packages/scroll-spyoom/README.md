@@ -1,6 +1,6 @@
 [![npm version](https://img.shields.io/npm/v/scroll-spyoom)](https://www.npmjs.com/package/scroll-spyoom) ![npm bundle size](https://img.shields.io/bundlephobia/min/scroll-spyoom)
 
-![Scroll-Spyoom](https://cdn.jsdelivr.net/gh/zengzjie/picgo-image@main/static_files/202304081538642.png)
+![Scroll-Spyoom](https://raw.githubusercontent.com/zengzjie/picgo-image/main/static_files/scroll-spyoom.png)
 
 A library for intelligent detection of current rolling position and activation of node position based on MutationObserver API
 
@@ -43,29 +43,23 @@ const scrollEndOffsetTop = 80;
 
 const Test = () => {
   const [isHeaderShow, setIsHeaderShow] = useState(true);
-  
-	const { 
-    activeIndex, 
-    setActiveIndex, 
-    isPinned, 
-    isScrollEnded, 
-    scrollEndDistance 
-  } = createNav({
+
+  const { activeIndex, setActiveIndex, isPinned, isScrollEnded, scrollEndDistance } = createNav({
     itemList,
     navBarId,
     offsetTop,
     navBarOffsetTop,
-    scrollEndOffsetTop
+    scrollEndOffsetTop,
   });
-  
+
   useEffect(() => {
     setIsHeaderShow(!isPinned || isScrollEnded);
   }, [isPinned, isScrollEnded]);
-  
+
   const handleTo = () => {
     setActiveIndex(2, 'smooth');
   };
-  
+
   return (
     <div className="test">
       <div onClick={handleTo}>跳转</div>
@@ -91,7 +85,7 @@ const Test = () => {
       ))}
       <div style={{ height: '1000px' }}>底部元素</div>
     </div>
-  )
+  );
 };
 
 export default Test;
@@ -140,7 +134,6 @@ export default Test;
     }
   }
 }
-
 ```
 
 ## Auto Resize Detection
