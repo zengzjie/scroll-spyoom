@@ -1,7 +1,6 @@
-
 [![npm version](https://img.shields.io/npm/v/scroll-spyoom)](https://www.npmjs.com/package/scroll-spyoom) ![npm bundle size](https://img.shields.io/bundlephobia/min/scroll-spyoom)
 
-![Scroll Spyoom](https://cdn.jsdelivr.net/gh/zengzjie/picgo-image@main/static_files/202304072223534.jpg)
+![Scroll-Spyoom](https://cdn.jsdelivr.net/gh/zengzjie/picgo-image@main/static_files/202304081538642.png)
 
 A library for intelligent detection of current rolling position and activation of node position based on MutationObserver API
 
@@ -20,7 +19,7 @@ $ npm install scroll-spyoom
 
 ## Usage
 
-> 简单示例可以拷贝到本地项目去尝试效果
+> You can copy the simple example to your local project and try it out to see the effect.
 
 ```tsx
 import { useEffect, useState } from 'react';
@@ -163,4 +162,3 @@ const observer = new window.MutationObserver(callback);
 ```
 
 Now you can use `MutationObserver`, and `mutationobserver-shim` will provide support for it in browsers that do not support the native API. This is a simple way to provide cross-browser support for `MutationObserver` using the `mutationobserver-shim` package. You can easily use `MutationObserver` in your project without worrying about browser compatibility issues.
-

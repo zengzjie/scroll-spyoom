@@ -1,6 +1,6 @@
 [![npm version](https://img.shields.io/npm/v/scroll-spyoom)](https://www.npmjs.com/package/scroll-spyoom) ![npm bundle size](https://img.shields.io/bundlephobia/min/scroll-spyoom)
 
-<img src="https://cdn.jsdelivr.net/gh/zengzjie/picgo-image@main/static_files/202304072223534.jpg" alt="Scroll Spyoom" style="max-width: 100%; height: auto;" />
+![Scroll-Spyoom](https://cdn.jsdelivr.net/gh/zengzjie/picgo-image@main/static_files/202304081538642.png)
 
 A library for intelligent detection of current rolling position and activation of node position based on MutationObserver API
 
