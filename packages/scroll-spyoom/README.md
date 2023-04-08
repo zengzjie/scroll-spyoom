@@ -1,6 +1,6 @@
 [![npm version](https://img.shields.io/npm/v/scroll-spyoom)](https://www.npmjs.com/package/scroll-spyoom) ![npm bundle size](https://img.shields.io/bundlephobia/min/scroll-spyoom)
 
-![Scroll Spyoom](https://cdn.jsdelivr.net/gh/zengzjie/picgo-image@main/static_files/202304072223534.jpg)
+<img src="https://cdn.jsdelivr.net/gh/zengzjie/picgo-image@main/static_files/202304072223534.jpg" alt="Scroll Spyoom" style="max-width: 100%; height: auto;" />
 
 A library for intelligent detection of current rolling position and activation of node position based on MutationObserver API
 
@@ -19,7 +19,7 @@ $ npm install scroll-spyoom
 
 ## Usage
 
-> 简单示例可以拷贝到本地项目去尝试效果
+> You can copy the simple example to your local project and try it out to see the effect.
 
 ```tsx
 import { useEffect, useState } from 'react';
