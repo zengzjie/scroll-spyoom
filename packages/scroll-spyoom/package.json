@@ -1,12 +1,12 @@
 {
   "name": "scroll-spyoom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library for intelligent detection of current rolling position and activation of node position based on MutationObserver API",
   "author": "zengzijie",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/zengzjie/scroll-spyoom.git"
   },
   "publishConfig": {
     "access": "public",

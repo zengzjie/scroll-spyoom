@@ -1,4 +1,3 @@
-
 [![npm version](https://img.shields.io/npm/v/scroll-spyoom)](https://www.npmjs.com/package/scroll-spyoom) ![npm bundle size](https://img.shields.io/bundlephobia/min/scroll-spyoom)
 
 ![Scroll Spyoom](https://cdn.jsdelivr.net/gh/zengzjie/picgo-image@main/static_files/202304072223534.jpg)
@@ -163,4 +162,3 @@ const observer = new window.MutationObserver(callback);
 ```
 
 Now you can use `MutationObserver`, and `mutationobserver-shim` will provide support for it in browsers that do not support the native API. This is a simple way to provide cross-browser support for `MutationObserver` using the `mutationobserver-shim` package. You can easily use `MutationObserver` in your project without worrying about browser compatibility issues.
-
